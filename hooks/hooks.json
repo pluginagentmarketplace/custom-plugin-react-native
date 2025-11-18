@@ -1,0 +1,69 @@
+{
+  "name": "Developer Roadmap Plugin Hooks",
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "id": "track-learning-progress",
+      "event": "session_start",
+      "description": "Track user's learning progress across sessions",
+      "enabled": true
+    },
+    {
+      "id": "validate-prerequisites",
+      "event": "agent_invoked",
+      "description": "Check if user has necessary prerequisites before agent invocation",
+      "enabled": true
+    },
+    {
+      "id": "suggest-projects",
+      "event": "skill_completed",
+      "description": "Suggest hands-on projects when a skill is completed",
+      "enabled": true
+    },
+    {
+      "id": "milestone-achievement",
+      "event": "milestone_reached",
+      "description": "Celebrate milestones and provide motivation",
+      "enabled": true
+    },
+    {
+      "id": "personalized-recommendations",
+      "event": "assessment_complete",
+      "description": "Generate personalized learning recommendations based on assessment",
+      "enabled": true
+    },
+    {
+      "id": "resource-suggestions",
+      "event": "learning_path_started",
+      "description": "Suggest relevant resources and tools for the chosen path",
+      "enabled": true
+    },
+    {
+      "id": "community-engagement",
+      "event": "user_milestone",
+      "description": "Encourage community engagement and knowledge sharing",
+      "enabled": true
+    },
+    {
+      "id": "progress-analytics",
+      "event": "session_end",
+      "description": "Collect and analyze learning progress data",
+      "enabled": true
+    }
+  ],
+  "configuration": {
+    "storage": {
+      "type": "local",
+      "path": ".roadmap-progress"
+    },
+    "notifications": {
+      "enabled": true,
+      "frequency": "daily",
+      "type": ["milestone", "recommendation", "motivation"]
+    },
+    "analytics": {
+      "enabled": true,
+      "track": ["learning_time", "skills_completed", "projects_built", "agent_usage"]
+    }
+  }
+}
