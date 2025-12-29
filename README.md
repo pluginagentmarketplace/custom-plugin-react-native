@@ -1,350 +1,262 @@
-# 🚀 Developer Roadmap Plugin for Claude Code
+<div align="center">
 
-A comprehensive, community-driven learning plugin powered by the official [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap) project. Master software development across 7 specialized domains with interactive guidance, hands-on projects, and personalized learning paths.
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=React+Native+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="React Native Assistant" />
 
-## ✨ Features
+<br/>
 
-### 🎯 7 Specialized Agents
-- **Frontend & Web Development**: HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue, Angular
-- **Backend & API Development**: Python, PHP, Go, Rust, Java, Kotlin, C++, Spring Boot, ASP.NET Core
-- **Mobile & Game Development**: React Native, Flutter, Swift, Kotlin, iOS, Android, Game Engines
-- **Data, AI & Machine Learning**: Data Science, ML, NLP, Computer Vision, MLOps, AI Agents
-- **DevOps, Cloud & Infrastructure**: AWS, Docker, Kubernetes, Terraform, CI/CD, Linux
-- **Architecture, Design & Systems**: System Design, Software Patterns, UX Design, Leadership
-- **Security & Specializations**: Cybersecurity, Blockchain, QA, Technical Writing, DevRel
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-react-native/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-### 💡 7 Invokable Skills
-Each skill provides quick-start guides, code examples, and best practices:
-- Frontend Technologies (HTML/CSS/JS/TS)
-- Backend Technologies (Python/Go/Java/Rust)
-- Mobile Technologies (React Native/Flutter/Swift)
-- Data Science & AI (ML/NLP/Computer Vision)
-- Cloud & DevOps (Docker/Kubernetes/Terraform)
-- System Architecture (Design Patterns/System Design)
-- Security & Compliance (Cryptography/OWASP/Blockchain)
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
-### 🎓 4 Interactive Commands
-- `/learn` - Start your learning journey with guided paths
-- `/browse-agent` - Explore all 7 specialized agents
-- `/assess` - Evaluate your current skill level
-- `/roadmaps` - Browse all 65+ developer roadmaps
+<br/>
 
-### 📊 Comprehensive Coverage
-- **65+ Roadmaps** from the official Developer Roadmap project
-- **1000+ Hours** of learning content
-- **Multiple Career Paths** suited for different interests
-- **Hands-on Projects** for practical application
-- **Best Practices** aligned with industry standards
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-react-native)
+
+---
+
+### What is this?
+
+> **React Native Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for react native development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
 
 ## 🚀 Quick Start
 
-### Installation
+### Prerequisites
 
-Claude Code will load this plugin automatically. To add it manually:
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
+
+```bash
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-react-native
+
+# Step 2️⃣ Install the plugin
+/plugin install react-native-assistant@pluginagentmarketplace-react-native
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
+```
+
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
 
 ```bash
 # Clone the repository
 git clone https://github.com/pluginagentmarketplace/custom-plugin-react-native.git
+cd custom-plugin-react-native
 
-# Load in Claude Code from the local directory
-# In Claude Code settings, add: ./custom-plugin-react-native
+# Load locally
+/plugin load .
+
+# Restart Claude Code
 ```
 
-### First Steps
+</details>
 
-1. **Start Learning**: Type `/learn` to choose your learning path
-2. **Explore Agents**: Use `/browse-agent` to discover specializations
-3. **Assess Level**: Run `/assess` to evaluate your current skills
-4. **Browse Roadmaps**: Check `/roadmaps` for comprehensive learning paths
+### ✅ Verify Installation
 
-## 📚 Agent Domains
+After restart, you should see these agents:
 
-### 1. Frontend & Web Development
-Perfect for building user interfaces and client-side applications.
-
-**Roadmaps Covered**: Frontend, Frontend Beginner, HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue, Angular, Node.js, GraphQL, API Design
-
-**Key Skills**:
-- Semantic HTML5
-- Modern CSS3 (Flexbox, Grid)
-- JavaScript ES6+
-- TypeScript type system
-- React hooks and patterns
-- Next.js full-stack
-
-**Time Commitment**: 3-12 months
+```
+react-native-assistant:01-frontend-web-development
+react-native-assistant:05-devops-cloud-infrastructure
+react-native-assistant:06-architecture-design-systems
+react-native-assistant:03-mobile-game-development
+react-native-assistant:04-data-ai-ml
+... and 2 more
+```
 
 ---
 
-### 2. Backend & API Development
-Build robust server-side systems and APIs.
+## ✨ Features
 
-**Roadmaps Covered**: Backend, Backend Beginner, Python, PHP, Go, Rust, Java, Kotlin, C++, Spring Boot, ASP.NET Core
-
-**Key Skills**:
-- Server-side programming
-- REST & GraphQL APIs
-- Database design
-- Authentication/Authorization
-- Microservices patterns
-- Performance optimization
-
-**Time Commitment**: 3-12 months
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for react native tasks |
+| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
 
 ---
 
-### 3. Mobile & Game Development
-Create mobile apps and games for all platforms.
+## 🤖 Agents
 
-**Roadmaps Covered**: React Native, iOS, Android, Swift, Flutter, Game Developer, Server-Side Game Dev
+### 7 Specialized Agents
 
-**Key Skills**:
-- Native development
-- Cross-platform solutions
-- Mobile UI/UX
-- Game engines
-- App distribution
-- Real-time systems
-
-**Time Commitment**: 3-12 months
-
----
-
-### 4. Data, AI & Machine Learning
-Master data-driven development and AI systems.
-
-**Roadmaps Covered**: Data Scientist, Data Engineer, Data Analyst, BI Analyst, AI Engineer, Machine Learning, MLOps, Prompt Engineering, AI Agents
-
-**Key Skills**:
-- Data analysis (pandas, SQL)
-- Machine learning (scikit-learn)
-- Deep learning (PyTorch, TensorFlow)
-- NLP & Computer Vision
-- MLOps & deployment
-- Prompt engineering
-
-**Time Commitment**: 6-12 months
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **01-frontend-web-development** | Master frontend frameworks, web technologies, client-side de |
+| 2 | **05-devops-cloud-infrastructure** | Master cloud platforms, containerization, orchestration, and |
+| 3 | **06-architecture-design-systems** | Master system design, software architecture, and design patt |
+| 4 | **03-mobile-game-development** | Master native and cross-platform mobile development. Expert  |
+| 5 | **04-data-ai-ml** | Master data science, machine learning, and AI. Expert in Pyt |
+| 6 | **07-security-specializations** | Master cybersecurity, compliance, blockchain, QA, and specia |
+| 7 | **02-backend-api-development** | Master backend systems, RESTful and GraphQL APIs, and server |
 
 ---
 
-### 5. DevOps, Cloud & Infrastructure
-Build scalable and reliable infrastructure.
+## 🛠️ Skills
 
-**Roadmaps Covered**: DevOps, DevOps Beginner, AWS, Cloudflare, Linux, Terraform, Docker, Kubernetes, PostgreSQL, SQL, Redis, MongoDB
+### Available Skills
 
-**Key Skills**:
-- Linux administration
-- Containerization (Docker)
-- Orchestration (Kubernetes)
-- Cloud platforms (AWS)
-- Infrastructure as code (Terraform)
-- CI/CD pipelines
-
-**Time Commitment**: 4-12 months
-
----
-
-### 6. Architecture, Design & Systems
-Design scalable systems and exceptional user experiences.
-
-**Roadmaps Covered**: Software Architect, Engineering Manager, Product Manager, System Design, Software Design & Architecture, Computer Science, Data Structures & Algorithms, Design System, UX Design
-
-**Key Skills**:
-- System design
-- Design patterns
-- Database architecture
-- UX/UI design
-- Engineering leadership
-- Algorithm design
-
-**Time Commitment**: 6-12 months
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `backend-technologies` | Work with backend languages (Python, PHP, Go, Rust, Java, Ko | `Skill("react-native-assistant:backend-technologies")` |
+| `system-architecture` | Design scalable and maintainable systems using design patter | `Skill("react-native-assistant:system-architecture")` |
+| `cloud-devops` | Deploy and manage infrastructure using AWS, Docker, Kubernet | `Skill("react-native-assistant:cloud-devops")` |
+| `data-science-ai` | Apply machine learning, deep learning, data analysis, and AI | `Skill("react-native-assistant:data-science-ai")` |
+| `mobile-technologies` | Build native and cross-platform mobile applications using Re | `Skill("react-native-assistant:mobile-technologies")` |
+| `frontend-technologies` | Master HTML, CSS, JavaScript, TypeScript, and modern fronten | `Skill("react-native-assistant:frontend-technologies")` |
+| `security-compliance` | Implement security best practices, cryptography, application | `Skill("react-native-assistant:security-compliance")` |
 
 ---
 
-### 7. Security & Specializations
-Protect applications and master specialized technologies.
+## ⌨️ Commands
 
-**Roadmaps Covered**: Cyber Security, Blockchain, QA, Technical Writer, DevRel, Prompt Engineering, Git & GitHub
-
-**Key Skills**:
-- Security fundamentals
-- Cryptography
-- Application security
-- Blockchain/Web3
-- QA and testing
-- Technical communication
-
-**Time Commitment**: 4-12 months
+| Command | Description |
+|---------|-------------|
+| `/learn` | Learn Command |
+| `/assess` | Assess Command |
+| `/browse-agent` | Browse Agent Command |
+| `/roadmaps` | Roadmaps Command |
 
 ---
 
-## 📖 Learning Paths
+## 📚 Documentation
 
-### Beginner Paths (3-4 months)
-- Frontend Beginner → JavaScript → React
-- Backend Beginner → Python → FastAPI
-- DevOps Beginner → Linux → Docker
-- Data Analyst → Python → Pandas
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
 
-### Intermediate Paths (4-6 months)
-- JavaScript → TypeScript → React → Next.js
-- Python → Django/FastAPI → Databases
-- Docker → Kubernetes → Terraform
-- Algorithms → System Design
+---
 
-### Advanced Paths (6-12 months)
-- Full Stack: Frontend + Backend + DevOps
-- AI/ML: Data Science + Machine Learning + MLOps
-- Architecture: System Design + Design Patterns + Leadership
-- Security: Cybersecurity + Application Security + Compliance
+## 📁 Project Structure
 
-## 🎯 Use Cases
-
-| Goal | Recommended Agents | Time |
-|------|------------------|------|
-| Become a Frontend Dev | Frontend, Architecture | 6-12 mo |
-| Become a Backend Dev | Backend, Architecture, DevOps | 6-12 mo |
-| Full Stack Development | Frontend, Backend, DevOps, Architecture | 12+ mo |
-| Mobile Development | Mobile, Backend, DevOps | 6-12 mo |
-| DevOps Engineer | DevOps, Cloud, Security | 6-12 mo |
-| Data Scientist | Data/AI, Backend, DevOps | 8-12 mo |
-| Tech Lead/Architect | All agents gradually | 12+ mo |
-
-## 📊 Plugin Structure
+<details>
+<summary>Click to expand</summary>
 
 ```
 custom-plugin-react-native/
-├── .claude-plugin/
-│   └── plugin.json ...................... Plugin manifest
-├── agents/
-│   ├── 01-frontend-web-development.md
-│   ├── 02-backend-api-development.md
-│   ├── 03-mobile-game-development.md
-│   ├── 04-data-ai-ml.md
-│   ├── 05-devops-cloud-infrastructure.md
-│   ├── 06-architecture-design-systems.md
-│   └── 07-security-specializations.md
-├── commands/
-│   ├── learn.md ......................... Learning path selector
-│   ├── browse-agent.md .................. Agent explorer
-│   ├── assess.md ........................ Skill assessment
-│   └── roadmaps.md ...................... Roadmap directory
-├── skills/
-│   ├── frontend-technologies/SKILL.md
-│   ├── backend-technologies/SKILL.md
-│   ├── mobile-technologies/SKILL.md
-│   ├── data-science-ai/SKILL.md
-│   ├── cloud-devops/SKILL.md
-│   ├── system-architecture/SKILL.md
-│   └── security-compliance/SKILL.md
-├── hooks/
-│   └── hooks.json ...................... Automation hooks
-└── README.md ........................... This file
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 7 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
 ```
 
-## 🔄 How to Use
-
-### Step 1: Choose Your Path
-```
-/learn
-```
-Browse the 7 agents and select your learning path based on:
-- Career interests
-- Current skill level
-- Time availability
-
-### Step 2: Explore the Agent
-```
-/browse-agent
-```
-Deep dive into your chosen agent to understand:
-- What roadmaps are covered
-- What skills you'll develop
-- Learning path recommendations
-
-### Step 3: Self-Assess
-```
-/assess
-```
-Evaluate your current knowledge:
-- Identify strengths
-- Find gaps
-- Get personalized recommendations
-
-### Step 4: Start Learning
-Use the agent's recommended resources:
-- Official roadmaps from Developer Roadmap
-- Interactive guides
-- Code examples and best practices
-- Hands-on projects
-
-## 🛠️ Technology Stack
-
-**Covered Languages**:
-JavaScript, TypeScript, Python, PHP, Go, Rust, Java, Kotlin, C++
-
-**Covered Frameworks**:
-React, Next.js, Vue, Angular, Django, FastAPI, Spring Boot, ASP.NET Core, Flask, Express, Node.js
-
-**Covered Tools**:
-Docker, Kubernetes, Terraform, AWS, Azure, GCP, PostgreSQL, MongoDB, Redis, GitHub, Git, Prometheus, Grafana
-
-## 📈 Learning Statistics
-
-- **65+ Roadmaps**: Comprehensive coverage of all development domains
-- **1000+ Hours**: Estimated learning content
-- **7 Agent Domains**: Specialized learning tracks
-- **7 Invokable Skills**: Practical code examples and guides
-- **4 Interactive Commands**: Guided learning experience
-- **100+ Technologies**: From languages to frameworks to tools
-
-## 🌐 Official Source
-
-All content is based on the official Developer Roadmap project:
-- **Repository**: https://github.com/kamranahmedse/developer-roadmap
-- **Interactive Site**: https://roadmap.sh/
-- **Community**: Active community contributions and feedback
-
-## 💡 Tips for Success
-
-1. **Be Consistent**: Dedicate regular time to learning
-2. **Practice**: Build projects alongside theory
-3. **Go Deep**: Master fundamentals before moving advanced
-4. **Build Projects**: Reinforce learning with practical applications
-5. **Join Communities**: Connect with other developers
-6. **Review**: Regularly revisit and consolidate knowledge
-7. **Mentor**: Teach others to deepen your understanding
-
-## 🤝 Contributing
-
-This plugin is built on the Developer Roadmap community project. To contribute:
-
-1. Submit improvements to [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
-2. Share your learning experiences
-3. Suggest new roadmaps or skills
-4. Help others on the learning journey
-
-## 📞 Support
-
-For questions or issues:
-- Check the official [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
-- Review the agent guides for detailed explanations
-- Use `/assess` to get personalized recommendations
-- Explore `/roadmaps` for comprehensive learning paths
-
-## 📄 License
-
-This plugin is based on the Developer Roadmap project which is under the MIT License.
+</details>
 
 ---
 
-## 🎓 Get Started Now!
+## 📅 Metadata
 
-```
-/learn          Start your learning journey
-/browse-agent   Explore 7 specialized agents
-/assess         Evaluate your skills
-/roadmaps       Browse all 65+ roadmaps
-```
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 7 |
+| **Commands** | 4 |
 
-Happy learning! 🚀
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Claude Code Community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
+
+</div>

@@ -1,10 +1,10 @@
 {
-  "name": "Developer Roadmap Plugin",
+  "name": "react-native-assistant",
   "version": "1.0.0",
   "description": "Comprehensive developer learning plugin with 65+ career roadmaps organized through 7 specialized agents, featuring interactive learning paths, skill assessments, and hands-on projects",
   "author": "Developer Roadmap Community",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "learning",
     "developer",

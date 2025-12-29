@@ -1,3 +1,9 @@
+---
+name: browse-agent
+description: Browse Agent Command
+allowed-tools: Read
+---
+
 # Browse Agent Command
 
 Explore all 7 specialized agents in the Developer Roadmap plugin. Each agent covers a specific domain with detailed guidance, resources, and learning paths.

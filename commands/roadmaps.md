@@ -1,3 +1,9 @@
+---
+name: roadmaps
+description: Roadmaps Command
+allowed-tools: Read
+---
+
 # Roadmaps Command
 
 Browse all 65+ developer roadmaps from the official Developer Roadmap project. This command provides a comprehensive directory of learning paths organized by category and difficulty level.
@@ -230,7 +236,6 @@ Browse all 65+ developer roadmaps from the official Developer Roadmap project. T
 ## 🌐 Official Source
 
 All roadmaps are from the official Developer Roadmap project:
-https://github.com/kamranahmedse/developer-roadmap
 
 Visit the interactive version for:
 - Visual roadmaps

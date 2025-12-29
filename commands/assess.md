@@ -1,3 +1,9 @@
+---
+name: assess
+description: Assess Command
+allowed-tools: Read
+---
+
 # Assess Command
 
 Evaluate your current knowledge and skill level. This command provides a personalized assessment helping you understand your strengths, identify gaps, and get customized learning recommendations.

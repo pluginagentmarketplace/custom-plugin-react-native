@@ -1,3 +1,9 @@
+---
+name: learn
+description: Learn Command
+allowed-tools: Read
+---
+
 # Learn Command
 
 Start your learning journey with the Developer Roadmap plugin. This command guides you through selecting a learning path based on your interests and current skill level.
