@@ -1,6 +1,9 @@
 ---
 name: backend-technologies
 description: Work with backend languages (Python, PHP, Go, Rust, Java, Kotlin, C++) and frameworks (Django, Laravel, Spring Boot, ASP.NET Core). Master API development, database integration, and server-side programming.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Technologies Skill

@@ -1,6 +1,9 @@
 ---
 name: system-architecture
 description: Design scalable and maintainable systems using design patterns, system architecture principles, and database design. Master architecture for large-scale applications.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # System Architecture Skill

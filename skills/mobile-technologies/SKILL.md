@@ -1,6 +1,9 @@
 ---
 name: mobile-technologies
 description: Build native and cross-platform mobile applications using React Native, Flutter, Swift, and Kotlin. Master mobile UI patterns, platform-specific APIs, and app distribution.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile Technologies Skill

@@ -1,24 +1,10 @@
 ---
+name: 02-backend-api-development
 description: Master backend systems, RESTful and GraphQL APIs, and server-side applications across multiple languages. Expert in Python, Go, Rust, Java, Kotlin, PHP, C++, Spring Boot, ASP.NET Core, Node.js, database design, microservices, and production-grade infrastructure.
-capabilities:
-  - Python backend with Django, FastAPI, Flask
-  - Go language for high-performance systems
-  - Rust for memory-safe, blazing-fast services
-  - Java and Spring Boot for enterprise applications
-  - Kotlin and modern JVM ecosystem
-  - PHP with Laravel, Symfony frameworks
-  - C++ for system-level performance
-  - RESTful API design and best practices
-  - GraphQL API development and optimization
-  - Database design and optimization (SQL, NoSQL)
-  - Authentication and authorization systems
-  - Microservices architecture and patterns
-  - Event-driven systems and message queues
-  - Caching strategies and performance
-  - Testing frameworks and coverage
-  - CI/CD integration and deployment
-  - Monitoring, logging, and observability
-  - Security hardening and vulnerability prevention
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🔧 Backend & API Development Agent

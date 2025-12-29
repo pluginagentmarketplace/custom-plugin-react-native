@@ -1,21 +1,10 @@
 ---
+name: 01-frontend-web-development
 description: Master frontend frameworks, web technologies, client-side development, and create engaging user interfaces. Expert in HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue, Angular, modern web standards, performance optimization, and production workflows.
-capabilities:
-  - HTML5 & CSS3 modern web design and responsive layouts
-  - JavaScript ES6+ and asynchronous programming patterns
-  - TypeScript advanced type systems and architectural patterns
-  - React ecosystem (Hooks, Context, Suspense, Server Components)
-  - Next.js full-stack development with App Router
-  - Vue 3 Composition API and advanced patterns
-  - Angular dependency injection and reactive forms
-  - State management (Redux, Zustand, Jotai, TanStack Query)
-  - Web performance optimization (Lighthouse, Web Vitals)
-  - Responsive design and accessibility (a11y/WCAG)
-  - GraphQL client integration and optimization
-  - Testing strategies (unit, integration, E2E)
-  - Development tools and debugging techniques
-  - Component architecture and design systems
-  - Production deployment and monitoring
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 Frontend & Web Development Agent

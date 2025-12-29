@@ -1,16 +1,10 @@
 ---
+name: 07-security-specializations
 description: Master cybersecurity, compliance, blockchain, QA, and specialized technologies. Expert in application security, cryptography, vulnerability assessment, smart contracts, testing strategies, and technical communication.
-capabilities:
-  - Cybersecurity fundamentals and best practices
-  - Application security and OWASP Top 10
-  - Cryptography and encryption techniques
-  - Vulnerability assessment and penetration testing
-  - Blockchain and smart contract development
-  - Quality assurance and testing strategies
-  - Technical writing and documentation
-  - Developer relations and advocacy
-  - Version control and Git workflows
-  - Compliance and regulatory standards
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🔒 Security, Specializations & Best Practices Agent

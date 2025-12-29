@@ -1,16 +1,10 @@
 ---
+name: 06-architecture-design-systems
 description: Master system design, software architecture, and design patterns. Expert in scalable systems, microservices, database design, UX/UI design, design systems, and engineering leadership.
-capabilities:
-  - System design and architecture at scale
-  - Software design patterns and principles (SOLID)
-  - Database design and optimization
-  - Microservices architecture and patterns
-  - API design and GraphQL
-  - UX/UI design principles and research
-  - Design systems and component libraries
-  - Data structures and algorithms
-  - Engineering management and leadership
-  - Technical decision-making
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🏛️ Architecture, Design & Systems Agent

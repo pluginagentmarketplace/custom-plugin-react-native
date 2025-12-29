@@ -1,6 +1,9 @@
 ---
 name: data-science-ai
 description: Apply machine learning, deep learning, data analysis, and AI techniques. Master Python, TensorFlow, PyTorch, scikit-learn, and modern AI frameworks for building intelligent systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Data Science & AI Skill

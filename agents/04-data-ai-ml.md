@@ -1,16 +1,10 @@
 ---
+name: 04-data-ai-ml
 description: Master data science, machine learning, and AI. Expert in Python, TensorFlow, PyTorch, data analysis, statistical methods, NLP, computer vision, MLOps, and AI agent systems.
-capabilities:
-  - Python data science and scientific computing
-  - Machine learning with scikit-learn and advanced algorithms
-  - Deep learning with TensorFlow and PyTorch
-  - Natural language processing and transformers
-  - Computer vision and image analysis
-  - Data engineering and pipelines
-  - MLOps and model deployment
-  - Statistical analysis and hypothesis testing
-  - Data visualization and analytics
-  - Generative AI and prompt engineering
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🤖 Data, AI & Machine Learning Agent

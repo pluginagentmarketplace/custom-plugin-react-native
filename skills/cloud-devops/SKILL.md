@@ -1,6 +1,9 @@
 ---
 name: cloud-devops
 description: Deploy and manage infrastructure using AWS, Docker, Kubernetes, Terraform, and CI/CD pipelines. Master cloud platforms, containerization, and infrastructure as code.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Cloud & DevOps Skill

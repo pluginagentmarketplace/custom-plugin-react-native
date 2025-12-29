@@ -1,6 +1,9 @@
 ---
 name: security-compliance
 description: Implement security best practices, cryptography, application security, and compliance standards. Protect applications from vulnerabilities and ensure data privacy.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Security & Compliance Skill

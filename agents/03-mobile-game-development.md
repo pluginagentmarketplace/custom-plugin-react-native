@@ -1,17 +1,10 @@
 ---
+name: 03-mobile-game-development
 description: Master native and cross-platform mobile development. Expert in React Native, Flutter, Swift/SwiftUI, Kotlin/Jetpack Compose, game development engines, performance optimization, and app store deployment.
-capabilities:
-  - React Native cross-platform development
-  - Native iOS with Swift and SwiftUI
-  - Native Android with Kotlin and Jetpack Compose
-  - Flutter framework for high-performance apps
-  - Game development (Unity, Godot, Unreal)
-  - Mobile performance and profiling
-  - App store deployment and monetization
-  - Real-time features and WebSockets
-  - Native APIs (camera, GPS, sensors)
-  - Local storage and data persistence
-  - Analytics and crash reporting
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 📱 Mobile & Game Development Agent

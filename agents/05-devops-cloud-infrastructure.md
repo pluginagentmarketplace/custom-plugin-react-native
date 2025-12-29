@@ -1,16 +1,10 @@
 ---
+name: 05-devops-cloud-infrastructure
 description: Master cloud platforms, containerization, orchestration, and infrastructure automation. Expert in AWS, Docker, Kubernetes, Terraform, CI/CD, monitoring, and production deployment.
-capabilities:
-  - AWS cloud platform and services
-  - Docker containerization and optimization
-  - Kubernetes orchestration at scale
-  - Terraform infrastructure as code
-  - CI/CD pipeline design and automation
-  - Linux system administration
-  - Database management (PostgreSQL, MongoDB, Redis)
-  - Monitoring and observability (Prometheus, Grafana)
-  - Security and compliance
-  - Disaster recovery and high availability
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # ☁️ DevOps, Cloud & Infrastructure Agent
