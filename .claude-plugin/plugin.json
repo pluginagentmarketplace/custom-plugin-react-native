@@ -1,7 +1,7 @@
 {
-  "name": "react-native-assistant",
+  "name": "react-native-development-assistant",
   "version": "1.0.0",
-  "description": "Comprehensive developer learning plugin with 65+ career roadmaps organized through 7 specialized agents, featuring interactive learning paths, skill assessments, and hands-on projects",
+  "description": "React Native plugin with specialized agents for mobile development, navigation, native modules, and cross-platform apps",
   "author": "Developer Roadmap Community",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "license": "SEE LICENSE IN LICENSE",
@@ -14,48 +14,13 @@
     "education"
   ],
   "agents": [
-    {
-      "id": "frontend-web-dev",
-      "name": "Frontend & Web Development",
-      "path": "agents/01-frontend-web-development.md",
-      "description": "Master frontend frameworks, web technologies, and client-side development"
-    },
-    {
-      "id": "backend-api-dev",
-      "name": "Backend & API Development",
-      "path": "agents/02-backend-api-development.md",
-      "description": "Build robust backend systems, APIs, and server-side applications"
-    },
-    {
-      "id": "mobile-game-dev",
-      "name": "Mobile & Game Development",
-      "path": "agents/03-mobile-game-development.md",
-      "description": "Develop native and cross-platform mobile apps, and game development"
-    },
-    {
-      "id": "data-ai-ml",
-      "name": "Data, AI & Machine Learning",
-      "path": "agents/04-data-ai-ml.md",
-      "description": "Explore data science, AI engineering, and machine learning specializations"
-    },
-    {
-      "id": "devops-cloud-infra",
-      "name": "DevOps, Cloud & Infrastructure",
-      "path": "agents/05-devops-cloud-infrastructure.md",
-      "description": "Master deployment, cloud platforms, and infrastructure management"
-    },
-    {
-      "id": "architecture-design-systems",
-      "name": "Architecture, Design & Systems",
-      "path": "agents/06-architecture-design-systems.md",
-      "description": "Architect scalable systems and design world-class user experiences"
-    },
-    {
-      "id": "security-specializations",
-      "name": "Security, Specializations & Best Practices",
-      "path": "agents/07-security-specializations.md",
-      "description": "Ensure security, master specialized roles, and follow industry best practices"
-    }
+    "./agents/01-react-native-fundamentals.md",
+    "./agents/02-react-native-navigation.md",
+    "./agents/03-react-native-state.md",
+    "./agents/04-react-native-native.md",
+    "./agents/05-react-native-animation.md",
+    "./agents/06-react-native-testing.md",
+    "./agents/07-react-native-deploy.md"
   ],
   "commands": [
     {
@@ -80,41 +45,13 @@
     }
   ],
   "skills": [
-    {
-      "name": "frontend-technologies",
-      "path": "skills/frontend-technologies/SKILL.md",
-      "description": "Master HTML, CSS, JavaScript, TypeScript and modern frameworks"
-    },
-    {
-      "name": "backend-technologies",
-      "path": "skills/backend-technologies/SKILL.md",
-      "description": "Work with backend languages and frameworks"
-    },
-    {
-      "name": "mobile-technologies",
-      "path": "skills/mobile-technologies/SKILL.md",
-      "description": "Build native and cross-platform mobile applications"
-    },
-    {
-      "name": "data-science-ai",
-      "path": "skills/data-science-ai/SKILL.md",
-      "description": "Apply data science and AI/ML techniques"
-    },
-    {
-      "name": "cloud-devops",
-      "path": "skills/cloud-devops/SKILL.md",
-      "description": "Deploy and manage cloud infrastructure"
-    },
-    {
-      "name": "system-architecture",
-      "path": "skills/system-architecture/SKILL.md",
-      "description": "Design scalable and maintainable systems"
-    },
-    {
-      "name": "security-compliance",
-      "path": "skills/security-compliance/SKILL.md",
-      "description": "Implement security best practices and compliance"
-    }
+    "./skills/react-native-basics/SKILL.md",
+    "./skills/react-native-navigation/SKILL.md",
+    "./skills/react-native-state/SKILL.md",
+    "./skills/react-native-animations/SKILL.md",
+    "./skills/react-native-native-modules/SKILL.md",
+    "./skills/react-native-testing/SKILL.md",
+    "./skills/react-native-deployment/SKILL.md"
   ],
   "hooks": [
     {
