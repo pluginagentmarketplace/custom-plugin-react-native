@@ -25,22 +25,22 @@
   "commands": [
     {
       "name": "learn",
-      "path": "commands/learn.md",
+      "path": "./commands/learn.md",
       "description": "Start your learning journey and select a career path"
     },
     {
       "name": "browse-agent",
-      "path": "commands/browse-agent.md",
+      "path": "./commands/browse-agent.md",
       "description": "Explore all 7 specialized agents and their roadmaps"
     },
     {
       "name": "assess",
-      "path": "commands/assess.md",
+      "path": "./commands/assess.md",
       "description": "Evaluate your knowledge and get personalized recommendations"
     },
     {
       "name": "roadmaps",
-      "path": "commands/roadmaps.md",
+      "path": "./commands/roadmaps.md",
       "description": "Browse all 65+ developer roadmaps by category"
     }
   ],
@@ -56,7 +56,7 @@
   "hooks": [
     {
       "name": "track-progress",
-      "path": "hooks/hooks.json"
+      "path": "./hooks/hooks.json"
     }
   ]
 }
