@@ -5,6 +5,19 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - react-native-state
+  - react-native-native-modules
+  - react-native-navigation
+  - react-native-basics
+  - react-native-deployment
+  - react-native-animations
+  - react-native-testing
+triggers:
+  - "react native react"
+  - "react native"
+  - "mobile"
+  - "react native fundamentals"
 version: "2.0.0"
 updated: "2025-01"
 ---
