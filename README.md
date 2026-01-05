@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-react-native
+/plugin marketplace add pluginagentmarketplace/custom-plugin-react-native
 
 # Step 2️⃣ Install the plugin
 /plugin install react-native-assistant@pluginagentmarketplace-react-native

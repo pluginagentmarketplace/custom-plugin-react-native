@@ -52,11 +52,5 @@
     "./skills/react-native-native-modules/SKILL.md",
     "./skills/react-native-testing/SKILL.md",
     "./skills/react-native-deployment/SKILL.md"
-  ],
-  "hooks": [
-    {
-      "name": "track-progress",
-      "path": "./hooks/hooks.json"
-    }
   ]
 }
